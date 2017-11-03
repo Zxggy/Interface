@@ -1,0 +1,154 @@
+/*ul {list-style-type: circle;}*/
+body {font-family: Verdana, sans-serif;}
+
+.container{
+	height: 250px;
+	width: 250px;
+	margin: 25px;
+	padding: 20px;
+	align-content: center;
+}
+
+
+
+/* Month header */
+#month {
+    padding: 70px 25px;
+    width: 200px;
+    background: #1abc9c;
+    text-align: center;
+	color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+	list-style-type: none;
+    display: inline-block;
+	text-align: center;
+    margin-bottom: 5px;
+  
+}
+
+/* Month list */
+#month ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+#month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+	list-style-type: none;
+    display: inline-block;
+	text-align: center;
+    margin-bottom: 5px;
+}
+
+
+#year {
+  padding: 50px 25px;
+    width: 200px;
+    background: red;
+    text-align: center;
+	color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+	list-style-type: none;
+    display: inline-block;
+	text-align: center;
+    margin-bottom: 5px;
+   
+}
+
+#year ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+#year ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+	list-style-type: none;
+    display: inline-block;
+	text-align: center;
+    margin-bottom: 5px;
+}
+
+
+/* Weekdays (Mon-Sun) */
+/*.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color:#ddd;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 26px;
+    color: #666;
+    text-align: center;
+}*/
+
+/* Days (1-31) */
+#day {
+    padding: 50px 25px;
+    width: 200px;
+    background: gray;
+    text-align: center;
+	color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+	list-style-type: none;
+    display: inline-block;
+	text-align: center;
+    margin-bottom: 5px;
+}
+
+#day li {
+    list-style-type: none;
+    display: inline-block;
+    width: 23%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:25px;
+    color:white;
+}
+
+/* Highlight the "current" day */
+#day li .active {
+    padding: 5px;
+    background: #1abc9c;
+    color: white !important
+}
+
+#console{
+	padding: 100px 30px;
+    width: 300px;
+	height: 300;
+    background: grey;
+    text-align: top;
+	margin-bottom: 500px; 
+	margin-top: 500px; 
+	position: absolute;
+	top: -400px;
+	left: 550px;
+	color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+	list-style-type: none;
+	text-align: center;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.selected {
+  background-color: yellow;
+  font-weight: bold; 
+}
+
